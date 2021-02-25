@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+body {
+	font-size: 14px;
+	font-family: 'Roboto';
+}
+.header_nav .navbar {
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0;
+}
+
+
+.navbar-collapse .navbar-nav .nav-link {
+	text-transform: uppercase;
+	color: #5b5150;
+	font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto';
+	padding: 21.5px 15px 21.5px 18px;
+	position: relative;
+}
+
+.navbar-collapse .navbar-nav .logo-img >a{
+    padding-top: 15px;
+    width: 100%;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Roboto';
+    text-decoration: none;
+    color: #5b5150;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-collapse .navbar-nav .nav-link:hover {
+	color: #cccccc;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.title >h1 {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; 
+  }
+  
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fb {
+    background-color: #3B5998;
+    color: white;
+  }
+  
+  .gmail{
+    background-color: #90979e;
+    color: white;
+  }
+  
+  .google {
+    background-color: #dd4b39;
+    color: white;
+  }
+  
+  .bottom-container {
+      text-align: center;
+      background-color: #666;
+      border-radius: 0px 0px 4px 4px;
+    }
+    .col-lg-4 {
+      float: left;
+      width: 50%;
+      margin: auto;
+      padding: 0 50px;
+      margin-top: 6px;
+      padding-top: 50px;
+    }
+    .footer-top {
+      background-color: #e7eeea;
+  }
+  .content >a {
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 300;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #221e1e;
+      line-height: 2;
+  }
+  .subcribe >a {
+      text-decoration: none;
+      padding: 12px 68px;
+      border: 1px solid black;
+      font-size: 16px;
+      font-weight: 500;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #3d3a3a;
+  }
+  .subcribe >a:hover {
+      background-color: #3d3a3a;
+      color: whitesmoke;
+  }
+  .footer-bottom {
+      text-align: center;
+  }
+  .footer-bottom >p{
+      padding-top: 20px;
+      font-size: 16px;
+      font-weight: 300;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #221e1e;
+  }
